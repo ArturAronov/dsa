@@ -1,5 +1,3 @@
-# dsa
-
 ### TypeScript
 
 To install dependencies:
@@ -21,4 +19,10 @@ To run:
 ```bash
 javac dir/dir/Main.java
 java dir.dir.Main
+```
+
+or
+
+```bash
+./run-java.sh
 ```
