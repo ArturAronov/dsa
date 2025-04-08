@@ -39,8 +39,8 @@ function bs_list(haystack: number[], needle: number): boolean {
 }
 ```
 
-**Two Crystal Balls Problem**
-https://www.tuckerleach.com/blog/the-two-crystal-balls-problem
+**Two Crystal Balls Problem**  
+https://www.tuckerleach.com/blog/the-two-crystal-balls-problem  
 `[false, false, false, false, false, true, true, true, true, true]`
 
 ```typescript
