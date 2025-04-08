@@ -6,13 +6,11 @@ search(arr, low, high, needle) {
     value = arr[mid]
 
     if(low < high) return false
-    if(value === needle)
-    {
+    if(value === needle) {
         return true
     } else if (value > needle) {
         high = mid
-    }
-    else {
+    } else {
         low = mid + 1
     }
 }
