@@ -1,21 +1,21 @@
 Pseudo code:
 
 ```
-    search(arr, low, high, needle) {
-        mid = floor(low + (high - low) / 2)
-        value = arr[mid]
+search(arr, low, high, needle) {
+    mid = floor(low + (high - low) / 2)
+    value = arr[mid]
 
-        if(low < high) return false
-        if(value === needle)
-        {
-            return true
-        } else if (value > needle) {
-            high = mid
-        }
-        else {
-            low = mid + 1
-        }
+    if(low < high) return false
+    if(value === needle)
+    {
+        return true
+    } else if (value > needle) {
+        high = mid
     }
+    else {
+        low = mid + 1
+    }
+}
 ```
 
 ```typescript
